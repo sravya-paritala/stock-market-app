@@ -1,0 +1,17 @@
+# Ignore node modules everywhere (frontend + backend)
+**/node_modules/
+
+# Ignore environment variables
+**/.env
+
+# Ignore build output
+**/build/
+**/dist/
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore system files
+.DS_Store

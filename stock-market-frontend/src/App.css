@@ -1,0 +1,160 @@
+/* src/App.css */
+
+/*
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #d9d7ca;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #1f454d;
+}
+
+h2 {
+  color: #3c8d93;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #3c8d93;
+  color: #d9d7ca;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #1f454d;
+  color: #d9d7ca;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3c8d93;
+}
+
+
+nav {
+  background-color: #1f454d;
+  padding: 15px 0;
+}
+
+nav a {
+  color: #d9d7ca;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #3c8d93;
+}
+*/
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text color */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #00bcd4; /* Light blue color */
+}
+
+h2 {
+  color: #03dac5; /* Teal color */
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #1e1e1e; /* Darker list item background */
+  color: #ffffff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #03dac5; /* Border for list items */
+}
+
+button {
+  background-color: #03dac5; /* Teal button */
+  color: #121212; /* Dark text color */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00bcd4; /* Lighter blue on hover */
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #1e1e1e; /* Dark navigation bar */
+  padding: 15px 0;
+  border-bottom: 1px solid #03dac5; /* Border at the bottom */
+}
+
+nav a {
+  color: #ffffff; /* White text for links */
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00bcd4; /* Light blue on hover */
+}
+
+/* Centering headings */
+h1, h2 {
+  text-align: center;
+}
+/* src/App.css */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
