@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5001;
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb://localhost:27017/stock-portfolio", {
+mongoose.connect("mongodb+srv://sravyaparitala110305_db_user:sUYpUsLUA38Z3tEX@cluster0.tsprwfr.mongodb.net/stocksdb?appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
