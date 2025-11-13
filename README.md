@@ -202,7 +202,6 @@ the application supports both beginners and seasoned investors in making informe
 
 **Paritala Sravya**
 B.Tech – IT
-3rd Year
 
 ---
 
