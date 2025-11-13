@@ -1,9 +1,3 @@
-Below is your **new, complete, professional README.md**, rewritten using ONLY the content from your PDF (theory, abstract, feature scope, technical stack, directory, conclusion, etc.) and formatted perfectly for GitHub.
-
-You can **copy–paste this entire README.md** into your project.
-
----
-
 # 📈 Stock Market Portfolio – MERN Stack Application
 
 *A full-stack Stock Market Portfolio app built using MongoDB, Express, React, and Node.js.*
@@ -211,4 +205,3 @@ If you found this project useful, ⭐ star the repository!
 
 ---
 
-If you want a **shorter version**, a **more academic version**, or a **diagram-based README**, tell me and I will generate it.
