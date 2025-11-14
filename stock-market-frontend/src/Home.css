@@ -1,0 +1,46 @@
+/* src/Home.css */
+
+.home {
+    padding: 10px; /* Reduced padding */
+    background-image: url('https://www.etmoney.com/learn/wp-content/uploads/2023/02/investing-at-market-high-1.jpg'); /* Replace with your open source image URL */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    color: white; /* Default text color for better visibility */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the start */
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #4A90E2; /* Keep the heading color */
+    margin: 10px 0; /* Reduced margin */
+}
+
+h2 {
+    color: #4A90E2; /* Keep the heading color */
+    margin: 5px 0; /* Reduced margin */
+}
+
+p {
+    color: white; /* Change paragraph text color to white for visibility */
+    margin: 5px 0; /* Reduced margin */
+    line-height: 1.6;
+}
+
+.know-more-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white; /* White background */
+    color: #4A90E2; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.know-more-button:hover {
+    background-color: #4A90E2; /* Change to a different color on hover */
+    color: white; /* Change text color on hover */
+}
