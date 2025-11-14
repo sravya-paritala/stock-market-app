@@ -235,7 +235,7 @@ const Stocks = ({ addToWatchlist }) => {
 
     useEffect(() => {
         // Fetch stock data from the backend
-        fetch("https://stock-backend-gx1a.onrender.com")
+        fetch("https://stock-backend-gx1a.onrender.com/api/stocks")
             .then((res) => res.json())
             .then((data) => setStocks(data))
             .catch((error) => console.error("Error fetching stocks:", error));
