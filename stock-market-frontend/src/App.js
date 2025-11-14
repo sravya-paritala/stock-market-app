@@ -311,7 +311,7 @@ function App() {
 
     const addToWatchlist = (stock) => {
         // Add stock to watchlist
-        fetch("https://stock-backend-gx1a.onrender.com", {
+        fetch("https://stock-backend-gx1a.onrender.com/api/stocks", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
